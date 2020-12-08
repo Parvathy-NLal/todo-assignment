@@ -42,7 +42,7 @@ function validate(callback){
     if(email.value=="admin"){
         error.innerHTML = "Valid";
         error.style.color = "green";
-        if(pwd.value==1234){
+        if(pwd.value==12345){
             error1.innerHTML="Valid";
             error1.style.color = "green";
             callback();
